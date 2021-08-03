@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: fuchsia;
+        }
+
+        h1:hover {
+            color: gray;
+            background-color: greenyellow;
+            margin: 50px;
+            padding: 50px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .new:focus {
+            color: indigo;
+            font-weight: 500;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            color: cornflowerblue;
+        }
+
+        li:nth-child(2n) {
+            color: crimson;
+        }
+
+        li:nth-child(2n+1) {
+            color: darkgreen;
+        }
+
+        .special::after {
+            content: 'New';
+            background-color: rgb(189, 131, 141);
+            font-size: small;
+        }
+
+        h3::before {
+            content: 'Hello';
+            background-color: darkolivegreen;
+            font-size: x-small;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="position.html">Position</a></li>
+                <li><a href="pseudo.html">Pseudo</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my Home</h1>
+    </header>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="new" type="text">
+    <input type="text">
+
+    <a href="https://www.facebook.com/">facebook</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="http://www.allbanglanewspaper.xyz/">Newspaper</a>
+    <br>
+    <h3>Middle size header-1</h3>
+    <h3 class="special">Middle size header-2</h3>
+    <h3>Middle size header-3</h3>
+    <h3 class="special">Middle size header-4</h3>
+    <h3>Middle size header-4</h3>
+    <h3 class="special">Middle size header-5</h3>
+    <h3>Middle size header-6</h3>
+    <h3 class="special">Middle size header-7</h3>
+    <ul>
+        <li>Person-1</li>
+        <li>Person-2</li>
+        <li>Person-3</li>
+        <li>Person-4</li>
+        <li>Person-5</li>
+        <li>Person-6</li>
+    </ul>
+</body>
+
+</html>
